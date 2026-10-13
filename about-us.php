@@ -83,14 +83,14 @@
                             <img src="assets/images/shape/doc.jpeg" alt="smart physiocare hospital" class="ints-main-image">
                         </div>
 
-                        <div class="ints-floating-badge ints-badge-one">
+                        <!-- <div class="ints-floating-badge ints-badge-one">
                             <i class="bi bi-heart-pulse-fill"></i>
-                            <span>Expert Rehab Team</span>
-                        </div>
+                            <span>Trusted Care</span>
+                        </div> -->
 
                         <div class="ints-floating-badge ints-badge-two">
                             <i class="bi bi-shield-check"></i>
-                            <span>Trusted Care</span>
+                            <span>Expert Rehab Team</span>
                         </div>
                     </div>
                 </div>

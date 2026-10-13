@@ -82,23 +82,23 @@
                     <!-- MOBILE / TABLET SOCIAL ICONS -->
                     <div class="hnx-social hnx-mobile-social">
 
-                        <a href="#" aria-label="Facebook">
+                        <a href="https://www.facebook.com/profile.php?id=100087910616231&is_tour_dismissed=true" aria-label="Facebook" target="_blank">
                             <i class="bi bi-facebook"></i>
                         </a>
 
-                        <a href="#" aria-label="Twitter">
+                        <a href="https://twitter.com/sm_physiocare" aria-label="Twitter" target="_blank">
                             <i class="bi bi-twitter-x"></i>
                         </a>
 
-                        <a href="#" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/in/smart-physiocare-hospital-326379269/" aria-label="LinkedIn" target="_blank">
                             <i class="bi bi-linkedin"></i>
                         </a>
 
-                        <a href="#" aria-label="YouTube">
+                        <a href="https://www.youtube.com/@smphysiocarehospital3672" aria-label="YouTube" target="_blank">
                             <i class="bi bi-youtube"></i>
                         </a>
 
-                        <a href="#" aria-label="Instagram">
+                        <a href="https://www.instagram.com/smartphysiocare_hospital/" aria-label="Instagram" target="_blank">
                             <i class="bi bi-instagram"></i>
                         </a>
 
@@ -141,23 +141,23 @@
 
                     <div class="hnx-social hnx-mobile-social">
 
-                        <a href="#" aria-label="Facebook" tabindex="-1">
+                        <a href="https://www.facebook.com/profile.php?id=100087910616231&is_tour_dismissed=true" aria-label="Facebook" tabindex="-1" target="_blank">
                             <i class="bi bi-facebook"></i>
                         </a>
 
-                        <a href="#" aria-label="Twitter" tabindex="-1">
+                        <a href="https://twitter.com/sm_physiocare" aria-label="Twitter" tabindex="-1" target="_blank">
                             <i class="bi bi-twitter-x"></i>
                         </a>
 
-                        <a href="#" aria-label="LinkedIn" tabindex="-1">
+                        <a href="https://www.linkedin.com/in/smart-physiocare-hospital-326379269/" aria-label="LinkedIn" tabindex="-1" target="_blank">
                             <i class="bi bi-linkedin"></i>
                         </a>
 
-                        <a href="#" aria-label="YouTube" tabindex="-1">
+                        <a href="https://www.youtube.com/@smphysiocarehospital3672" aria-label="YouTube" tabindex="-1" target="_blank">
                             <i class="bi bi-youtube"></i>
                         </a>
 
-                        <a href="#" aria-label="Instagram" tabindex="-1">
+                        <a href="https://www.instagram.com/smartphysiocare_hospital/" aria-label="Instagram" tabindex="-1" target="_blank">
                             <i class="bi bi-instagram"></i>
                         </a>
 
@@ -171,23 +171,23 @@
         <!-- DESKTOP SOCIAL ICONS - RIGHTMOST -->
         <div class="hnx-social hnx-desktop-social">
 
-            <a href="#" aria-label="Facebook">
+            <a href="https://www.facebook.com/profile.php?id=100087910616231&is_tour_dismissed=true" aria-label="Facebook" target="_blank">
                 <i class="bi bi-facebook"></i>
             </a>
 
-            <a href="#" aria-label="Twitter">
+            <a href="https://twitter.com/sm_physiocare" aria-label="Twitter" target="_blank">
                 <i class="bi bi-twitter-x"></i>
             </a>
 
-            <a href="#" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/smart-physiocare-hospital-326379269/" aria-label="LinkedIn" target="_blank">
                 <i class="bi bi-linkedin"></i>
             </a>
 
-            <a href="#" aria-label="YouTube">
+            <a href="https://www.youtube.com/@smphysiocarehospital3672" aria-label="YouTube" target="_blank">
                 <i class="bi bi-youtube"></i>
             </a>
 
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/smartphysiocare_hospital/" aria-label="Instagram" target="_blank">
                 <i class="bi bi-instagram"></i>
             </a>
 

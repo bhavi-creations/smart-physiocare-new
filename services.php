@@ -15,7 +15,7 @@ $snfServices = [
         'description' => 'Paralysis is the inability to move muscles on your own and with purpose. It may involve complete loss of movement or significant muscle weakness.',
         'image' => 'assets/images/Paralysis Rehabilitation.webp',
         'icon' => 'bi-person-wheelchair',
-        'link' => 'paralysis-rehabilitation.php'
+        'link' => 'paralysis-rehabilitation-center.php'
     ],
     [
         'title' => 'Spinal Cord Injury Rehabilitation',
