@@ -271,9 +271,11 @@ $snfServices = [
             <h2 class="inssv-title">Our Achievements</h2>
         </div>
 
-        <div class="row g-4 inssv-achievement-row">
+        <!-- Added justify-content-start (or justify-content-center) & reduced column widths -->
+        <div class="row g-3 inssv-achievement-row align-items-center">
 
-            <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
                 <div class="inssv-card">
                     <span class="inssv-card-shine" aria-hidden="true"></span>
                     <div class="inssv-card-inner">
@@ -283,7 +285,8 @@ $snfServices = [
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
                 <div class="inssv-card">
                     <span class="inssv-card-shine" aria-hidden="true"></span>
                     <div class="inssv-card-inner">
@@ -293,7 +296,8 @@ $snfServices = [
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
                 <div class="inssv-card">
                     <span class="inssv-card-shine" aria-hidden="true"></span>
                     <div class="inssv-card-inner">
@@ -315,5 +319,180 @@ $snfServices = [
     </div>
 </section>
 <!-- END SERVICE NEW SECOND SECTION -->
+
+
+
+
+
+<!-- =========================================
+     SERVICE NEW THIRD SECTION
+========================================= -->
+<section class="service_new_third_section" id="service_new_third_section">
+    <div class="snts-bg-shape snts-shape-one"></div>
+    <div class="snts-bg-shape snts-shape-two"></div>
+    <div class="snts-glow snts-glow-left"></div>
+    <div class="snts-glow snts-glow-right"></div>
+
+    <div class="container-fluid snts-container">
+        <div class="snts-heading-wrap">
+            <span class="snts-subtitle">Meet Our Professionals</span>
+            <h2 class="snts-title">Browse By <span>Categories</span></h2>
+            <p class="snts-description">
+                Explore our specialised physiotherapy services and visit us at our convenient
+                locations to get expert care, personalised for your needs.
+            </p>
+        </div>
+
+        <div class="row g-4 align-items-stretch snts-main-row">
+
+            <!-- SPECIALITY CARD -->
+            <div class="col-12 col-md-6 col-xl-4 d-flex">
+                <div class="snts-card snts-light-card h-100 w-100">
+                    <div class="snts-icon-circle">
+                        <i class="bi bi-heart-pulse"></i>
+                    </div>
+
+                    <div class="snts-card-pattern snts-speciality-pattern"></div>
+
+                    <h3 class="snts-card-title">By Speciality</h3>
+                    <p class="snts-mini-label">EXPERT CARE FOR EVERY NEED</p>
+
+                    <ul class="snts-list">
+                        <li><i class="bi bi-chevron-right"></i> Orthopedic</li>
+                        <li><i class="bi bi-chevron-right"></i> Neurology</li>
+                        <li><i class="bi bi-chevron-right"></i> Cardio and Pulmonary</li>
+                        <li><i class="bi bi-chevron-right"></i> Paediatrics</li>
+                        <li><i class="bi bi-chevron-right"></i> Geriatric</li>
+                        <li><i class="bi bi-chevron-right"></i> Sports</li>
+                        <li><i class="bi bi-chevron-right"></i> Obstetric and Gynecology</li>
+                        <li><i class="bi bi-chevron-right"></i> Post Operative Care For Early Recovery After Major Surgeries</li>
+                    </ul>
+
+                    <div class="snts-card-bottom">
+                        <a href="#" class="snts-btn-link">
+                            <span class="snts-arrow-circle"><i class="bi bi-arrow-right"></i></span>
+                            <span>Explore Specialities</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOCATION CARD -->
+            <div class="col-12 col-md-6 col-xl-4 d-flex">
+                <div class="snts-card snts-light-card h-100 w-100">
+                    <div class="snts-icon-circle">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+
+                    <div class="snts-card-pattern snts-location-pattern"></div>
+
+                    <h3 class="snts-card-title">By Location</h3>
+                    <p class="snts-mini-label">VISIT OUR CLINICS</p>
+
+                    <div class="snts-location-block">
+                        <div class="snts-location-icon">
+                            <i class="bi bi-hospital"></i>
+                        </div>
+                        <div class="snts-location-content">
+                            <h4>Kakinada</h4>
+                            <p>
+                                D.No.2-365, 1st Floor, Above Surya Pharmacy,
+                                OPP. 3rd Battalion Commander Office,
+                                APSP-1st Gate, Kakinada-533005, A.P.
+                            </p>
+                            <a href="#">View on Map <i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="snts-location-divider"></div>
+
+                    <div class="snts-location-block">
+                        <div class="snts-location-icon">
+                            <i class="bi bi-hospital"></i>
+                        </div>
+                        <div class="snts-location-content">
+                            <h4>Rajahmundry</h4>
+                            <p>
+                                SMART Physiocare Hospital, OPP. Dr. Rajababu Garu ENT Hospital,
+                                Danavaipeta, Rajahmundry-533103, E.G.Dt., A.P.
+                            </p>
+                            <a href="#">View on Map <i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="snts-card-bottom">
+                        <a href="#" class="snts-btn-link">
+                            <span class="snts-arrow-circle"><i class="bi bi-arrow-right"></i></span>
+                            <span>Get Directions</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ CARD -->
+            <div class="col-12 col-xl-4 d-flex">
+                <div class="snts-card snts-faq-card h-100 w-100">
+                    <div class="snts-faq-badge">Support</div>
+
+                    <h3 class="snts-faq-title">Frequently Asked Questions.</h3>
+                    <p class="snts-faq-text">
+                        Find quick answers to common questions about our services,
+                        appointments and care at Smart Physio Care Hospital.
+                    </p>
+
+                    <div class="accordion snts-accordion" id="sntsFaqAccordion">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sntsFaqOneHead">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sntsFaqOne" aria-expanded="false" aria-controls="sntsFaqOne">
+                                    What services does Smart Physio Care Hospital provide?
+                                </button>
+                            </h2>
+                            <div id="sntsFaqOne" class="accordion-collapse collapse" aria-labelledby="sntsFaqOneHead" data-bs-parent="#sntsFaqAccordion">
+                                <div class="accordion-body">
+                                    We provide orthopaedic, neurological, sports, geriatric, paediatric,
+                                    cardio-pulmonary and rehabilitation-focused physiotherapy services.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sntsFaqTwoHead">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sntsFaqTwo" aria-expanded="true" aria-controls="sntsFaqTwo">
+                                    How can I schedule an appointment?
+                                </button>
+                            </h2>
+                            <div id="sntsFaqTwo" class="accordion-collapse collapse show" aria-labelledby="sntsFaqTwoHead" data-bs-parent="#sntsFaqAccordion">
+                                <div class="accordion-body">
+                                    You can schedule an appointment by calling our reception desk during
+                                    working hours. Our team will assist you in finding a convenient date and time.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sntsFaqThreeHead">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sntsFaqThree" aria-expanded="false" aria-controls="sntsFaqThree">
+                                    What should I wear for my physiotherapy session?
+                                </button>
+                            </h2>
+                            <div id="sntsFaqThree" class="accordion-collapse collapse" aria-labelledby="sntsFaqThreeHead" data-bs-parent="#sntsFaqAccordion">
+                                <div class="accordion-body">
+                                    Please wear comfortable clothing that allows easy movement and gives
+                                    access to the treatment area if needed.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- =========================================
+     END SERVICE NEW THIRD SECTION
+========================================= -->
 
  <?php include 'footer.php'; ?>
