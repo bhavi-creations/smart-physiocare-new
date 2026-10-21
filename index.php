@@ -689,7 +689,7 @@ $infiveTestimonials = [
 
                                 <!-- Replace with actual testimonial illustration -->
                                 <img
-                                    src="assets/images/testimonials/client-illustration.webp"
+                                    src="assets/images/tinified/im5.webp"
                                     alt="Client sharing a testimonial"
                                     class="infive-illustration"
                                     loading="lazy"

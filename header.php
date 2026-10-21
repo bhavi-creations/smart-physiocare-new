@@ -239,7 +239,7 @@
                     <ul class="hnx-nav">
 
                         <li>
-                            <a href="index.php" class="active">
+                            <a href="index.php">
                                 Home
                             </a>
                         </li>

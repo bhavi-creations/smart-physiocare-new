@@ -1,5 +1,35 @@
 <?php include 'header.php'; ?>
 
+<?php
+/* ==========================================
+   INDEX NEW FIFTH SECTION
+   ALL 4 CLIENT TESTIMONIALS
+========================================== */
+
+$infiveTestimonials = [
+    [
+        'quote' => "One of the Best Physiotherapy hospital in Kakinada, They have relieved my back pain, they are really magician for relief any kind of joint pain I don't have enough words for thanking to team in smart Physiotherapy hospital.",
+        'name' => 'Satya Devi',
+        'role' => 'Teacher'
+    ],
+    [
+        'quote' => "It was very wonderfull physio center for all sports man's and all people prasanna sir tq really my student now running because of your physio center tq tq to all smart physio care kakinada",
+        'name' => 'Santhosh Athlet',
+        'role' => 'Real Estate'
+    ],
+    [
+        'quote' => "Excellent physiotherapy centre, Treatment here is one of the best...and doctor here is really friendly.",
+        'name' => 'Raj',
+        'role' => 'Bank Employee'
+    ],
+    [
+        'quote' => "Wonderful sports & rehab center in Kakinada! Thanks to Smart Physio Care's professional doctors and detailed recovery plan, my student recovered super fast and is running again.",
+        'name' => 'Sravish Nalam',
+        'role' => 'Athletic Trainer'
+    ]
+];
+?>
+
 <!-- ==========================================
      INDEX NEW FIFTH SECTION
      PREMIUM CLIENT TESTIMONIALS
@@ -30,7 +60,7 @@
 
                                 <!-- Replace with actual testimonial illustration -->
                                 <img
-                                    src="assets/images/testimonials/client-illustration.webp"
+                                    src="assets/images/tinified/im5.webp"
                                     alt="Client sharing a testimonial"
                                     class="infive-illustration"
                                     loading="lazy"

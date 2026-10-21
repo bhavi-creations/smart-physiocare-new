@@ -83,13 +83,9 @@ $focus_areas = [
     'Reduce neck pain and discomfort',
     'Improve cervical spine mobility',
     'Reduce muscle stiffness and spasms',
-    'Improve range of neck movement',
     'Improve posture and spinal alignment',
     'Reduce shoulder and arm pain',
     'Improve upper limb function',
-    'Help manage weakness or numbness',
-    'Improve flexibility of surrounding soft tissues',
-    'Support comfortable daily activities',
     'Reduce joint stiffness',
     'Improve overall neck function'
 ];

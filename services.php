@@ -50,7 +50,7 @@ $snfServices = [
         'description' => 'Frozen shoulder, also known as adhesive capsulitis, causes stiffness, discomfort and reduced movement of the shoulder joint.',
         'image' => 'assets/images/sholuder.webp',
         'icon' => 'bi-bandaid',
-        'link' => 'frozen-shoulder.php'
+        'link' => 'frozen-shoulders.php'
     ],
     [
         'title' => 'Palliative Care',
@@ -71,7 +71,7 @@ $snfServices = [
         'description' => 'Physiotherapy support for mobility, strength and physical well-being during pregnancy and postpartum recovery.',
         'image' => 'assets/images/pre or post ptegnancy-.webp',
         'icon' => 'bi-hearts',
-        'link' => 'pregnancy-rehabilitation.php'
+        'link' => 'pre_or_post-pregnancy-rehabilitation.php'
     ],
     [
         'title' => 'Osteoarthritis',
@@ -85,7 +85,7 @@ $snfServices = [
         'description' => 'Physiotherapy plays a role in managing acute and chronic pain through personalized assessment, exercise and rehabilitation approaches.',
         'image' => 'assets/images/Pain Management.webp',
         'icon' => 'bi-heart-pulse',
-        'link' => 'pain-management.php'
+        'link' => 'pain-management-physiotherapy.php'
     ]
 ];
 ?>
@@ -259,65 +259,270 @@ $snfServices = [
      SERVICE NEW SECOND SECTION
      OUR ACHIEVEMENTS
 ========================================= -->
+
 <section class="service_new_second_section" id="service_new_second_section">
+
+
+<!-- BACKGROUND DECORATIONS -->
+    <div class="inssv-background-grid" aria-hidden="true"></div>
 
     <div class="inssv-bg-glow inssv-glow-one" aria-hidden="true"></div>
     <div class="inssv-bg-glow inssv-glow-two" aria-hidden="true"></div>
 
+    <!-- PLUS ICONS -->
+    <span class="inssv-cross inssv-cross-one" aria-hidden="true">+</span>
+    <span class="inssv-cross inssv-cross-two" aria-hidden="true">+</span>
+    <span class="inssv-cross inssv-cross-three" aria-hidden="true">+</span>
+
+    <!-- DOTS -->
+    <div class="inssv-dots inssv-dots-one" aria-hidden="true"></div>
+    <div class="inssv-dots inssv-dots-two" aria-hidden="true"></div>
+    <div class="inssv-dots inssv-dots-three" aria-hidden="true"></div>
+
+<!-- GLOWING TOOTH - TOP RIGHT -->
+<div class="inssv-tooth inssv-tooth-right" aria-hidden="true">
+    <svg viewBox="0 0 180 210" fill="none"
+         xmlns="http://www.w3.org/2000/svg">
+
+        <path d="M91 26 C57 6 19 24 19 69 C19 103 39 120 47 156 C53 182 64 199 76 178 C84 164 82 136 90 129 C98 136 96 164 104 178 C116 199 127 182 133 156 C141 120 161 103 161 69 C161 24 125 6 91 26Z"
+              stroke="currentColor"
+              stroke-width="4"/>
+
+        <path d="M91 26 C82 34 72 38 61 38"
+              stroke="currentColor"
+              stroke-width="2"/>
+
+        <path d="M91 26 C105 37 116 39 125 38"
+              stroke="currentColor"
+              stroke-width="2"/>
+
+        <circle cx="90"
+                cy="96"
+                r="53"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-dasharray="3 7"/>
+
+    </svg>
+</div>
+
+
+<!-- GLOWING TOOTH - BOTTOM LEFT -->
+<div class="inssv-tooth inssv-tooth-left" aria-hidden="true">
+
+    <svg viewBox="0 0 180 210"
+         fill="none"
+         xmlns="http://www.w3.org/2000/svg">
+
+        <path d="M91 26 C57 6 19 24 19 69 C19 103 39 120 47 156 C53 182 64 199 76 178 C84 164 82 136 90 129 C98 136 96 164 104 178 C116 199 127 182 133 156 C141 120 161 103 161 69 C161 24 125 6 91 26Z"
+              stroke="currentColor"
+              stroke-width="4"/>
+
+        <path d="M91 26 C82 34 72 38 61 38"
+              stroke="currentColor"
+              stroke-width="2"/>
+
+    </svg>
+
+</div>
+
+
+<!-- BACKGROUND WAVE LINES -->
+<svg class="inssv-wave-decoration"
+     viewBox="0 0 1440 180"
+     preserveAspectRatio="none"
+     aria-hidden="true">
+
+    <path d="M0 65 C220 195 390 15 610 105 S1040 195 1440 35"
+          fill="none"
+          stroke="#34ecff"
+          stroke-width="2"/>
+
+    <path d="M0 90 C270 210 390 40 650 125 S1110 175 1440 60"
+          fill="none"
+          stroke="#34ecff"
+          stroke-opacity=".33"
+          stroke-width="1.5"/>
+
+    <path d="M0 115 C220 215 470 50 740 145 S1170 190 1440 85"
+          fill="none"
+          stroke="#b9f5ff"
+          stroke-opacity=".18"
+          stroke-width="1"/>
+
+</svg>
+
+
+    
+
+
     <div class="container inssv-container">
 
+
+        <!-- =========================================
+             HEADING
+        ========================================== -->
+
         <div class="inssv-heading-wrap">
-            <span class="inssv-subtitle">Our Achievements</span>
-            <h2 class="inssv-title">Our Achievements</h2>
-        </div>
 
-        <!-- Added justify-content-start (or justify-content-center) & reduced column widths -->
-        <div class="row g-3 inssv-achievement-row align-items-center">
+            <div class="inssv-heading-top">
 
-            <!-- Card 1 -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="inssv-card">
-                    <span class="inssv-card-shine" aria-hidden="true"></span>
-                    <div class="inssv-card-inner">
-                        <h3 class="inssv-count">800+</h3>
-                        <p class="inssv-label">Patients</p>
-                    </div>
-                </div>
+                <span class="inssv-heading-line"></span>
+
+                <span class="inssv-subtitle">
+                    Our Achievements
+                </span>
+
             </div>
 
-            <!-- Card 2 -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="inssv-card">
-                    <span class="inssv-card-shine" aria-hidden="true"></span>
-                    <div class="inssv-card-inner">
-                        <h3 class="inssv-count">15+</h3>
-                        <p class="inssv-label">Experienced Doctors</p>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Card 3 -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="inssv-card">
-                    <span class="inssv-card-shine" aria-hidden="true"></span>
-                    <div class="inssv-card-inner">
-                        <h3 class="inssv-count">2+</h3>
-                        <p class="inssv-label">Branches</p>
-                    </div>
-                </div>
-            </div>
+            <h2 class="inssv-title">
+                Our <span>Achievements</span>
+            </h2>
+
+
+            <span class="inssv-title-underline"></span>
 
         </div>
 
-        <div class="inssv-dot-pattern" aria-hidden="true">
-            <span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span>
+
+
+        <!-- =========================================
+             ACHIEVEMENT CARDS
+        ========================================== -->
+
+        <div class="row g-3 g-lg-4
+                    inssv-achievement-row
+                    align-items-stretch
+                    justify-content-center">
+
+
+            <!-- CARD 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="inssv-card">
+
+                    <span class="inssv-card-shine"
+                          aria-hidden="true"></span>
+
+
+                    <div class="inssv-card-inner">
+
+
+                        <div class="inssv-card-icon">
+
+                            <i class="bi bi-people"></i>
+
+                        </div>
+
+
+                        <div class="inssv-card-content">
+
+                            <h3 class="inssv-count">
+                                800+
+                            </h3>
+
+                            <p class="inssv-label">
+                                Patients
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="inssv-card">
+
+                    <span class="inssv-card-shine"
+                          aria-hidden="true"></span>
+
+
+                    <div class="inssv-card-inner">
+
+
+                        <div class="inssv-card-icon">
+
+                            <i class="bi bi-person-heart"></i>
+
+                        </div>
+
+
+                        <div class="inssv-card-content">
+
+                            <h3 class="inssv-count">
+                                15+
+                            </h3>
+
+                            <p class="inssv-label">
+                                Experienced Doctors
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="inssv-card">
+
+                    <span class="inssv-card-shine"
+                          aria-hidden="true"></span>
+
+
+                    <div class="inssv-card-inner">
+
+
+                        <div class="inssv-card-icon">
+
+                            <i class="bi bi-building"></i>
+
+                        </div>
+
+
+                        <div class="inssv-card-content">
+
+                            <h3 class="inssv-count">
+                                2+
+                            </h3>
+
+                            <p class="inssv-label">
+                                Branches
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
         </div>
+
 
     </div>
+
 </section>
+
 <!-- END SERVICE NEW SECOND SECTION -->
 
 
@@ -369,7 +574,7 @@ $snfServices = [
                     </ul>
 
                     <div class="snts-card-bottom">
-                        <a href="#" class="snts-btn-link">
+                        <a href="specilities.php" class="snts-btn-link">
                             <span class="snts-arrow-circle"><i class="bi bi-arrow-right"></i></span>
                             <span>Explore Specialities</span>
                         </a>
@@ -400,7 +605,7 @@ $snfServices = [
                                 OPP. 3rd Battalion Commander Office,
                                 APSP-1st Gate, Kakinada-533005, A.P.
                             </p>
-                            <a href="#">View on Map <i class="bi bi-arrow-up-right"></i></a>
+                            <a href="location.php#location1">View on Map <i class="bi bi-arrow-up-right"></i></a>
                         </div>
                     </div>
 
@@ -416,12 +621,12 @@ $snfServices = [
                                 SMART Physiocare Hospital, OPP. Dr. Rajababu Garu ENT Hospital,
                                 Danavaipeta, Rajahmundry-533103, E.G.Dt., A.P.
                             </p>
-                            <a href="#">View on Map <i class="bi bi-arrow-up-right"></i></a>
+                            <a href="location.php#location2">View on Map <i class="bi bi-arrow-up-right"></i></a>
                         </div>
                     </div>
 
                     <div class="snts-card-bottom">
-                        <a href="#" class="snts-btn-link">
+                        <a href="location.php" class="snts-btn-link">
                             <span class="snts-arrow-circle"><i class="bi bi-arrow-right"></i></span>
                             <span>Get Directions</span>
                         </a>

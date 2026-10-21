@@ -113,13 +113,13 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .header_new_section .hnx-menu nav { min-width: 0; }
 .header_new_section .hnx-nav { display: flex; align-items: center; flex-wrap: nowrap; justify-content: center; gap: 4px; margin: 0; padding: 0; list-style: none; }
 .header_new_section .hnx-nav li { flex: none; }
-.header_new_section .hnx-nav a { position: relative; display: block; padding: 14px 13px 17px; color: #082e58; font-size: 17px; font-weight: 700; white-space: nowrap; transition: color .22s ease; }
+.header_new_section .hnx-nav a { position: relative; display: block; padding: 14px 13px 17px; color: white; font-size: 17px; font-weight: 700; white-space: nowrap; transition: color .22s ease; }
 .header_new_section .hnx-nav a::after {
   content: ''; position: absolute; left: 17%; width: 66%; bottom: 7px; height: 3px;
   border-radius: 4px; background: #00a8c5; transform: scaleX(0);
   transition: transform .3s ease; box-shadow: 0 0 9px rgba(1,216,240,.8);
 }
-.header_new_section .hnx-nav a.active, .header_new_section .hnx-nav a:hover { color: #008eae; }
+.header_new_section .hnx-nav a.active, .header_new_section .hnx-nav a:hover { color: #3befff; }
 .header_new_section .hnx-nav a.active::after, .header_new_section .hnx-nav a:hover::after { transform: scaleX(1); }
 .header_new_section .hnx-cta {
   min-width: 274px; min-height: 66px; flex: none; display: inline-flex; align-items: center; justify-content: center; gap: 15px;
@@ -771,6 +771,7 @@ a, button { -webkit-tap-highlight-color: transparent; }
     .header_new_section .hnx-inner {
         grid-template-columns: minmax(0, 35%) minmax(0, 65%);
         padding: 10px 26px !important;
+        background: radial-gradient(at 15% 18%, rgba(0, 194, 217, 0.23), transparent 43%), radial-gradient(at 92% 83%, rgba(0, 143, 204, 0.28), transparent 45%), linear-gradient(125deg, rgb(0, 41, 64) 0%, rgb(4, 62, 85) 43%, rgb(0, 46, 83) 100%);
     }
 
     .header_new_section .hnx-menu {
@@ -2878,23 +2879,8 @@ a, button { -webkit-tap-highlight-color: transparent; }
 
 /* MAIN SECTION BACKGROUND */
 .index_new_third_section {
-    background:
-        radial-gradient(
-            ellipse at 12% 10%,
-            rgba(0, 221, 244, 0.20),
-            transparent 34%
-        ),
-        radial-gradient(
-            ellipse at 90% 80%,
-            rgba(13, 165, 206, 0.24),
-            transparent 40%
-        ),
-        linear-gradient(
-            125deg,
-            #11b9cd 0%,
-            #103B60 45%,
-            #103B60 100%
-        ) !important;
+    border: 1px solid rgba(59, 239, 255, .72);
+    background: radial-gradient(circle at 100% 0%, rgba(0, 220, 240, .22), transparent 45%), linear-gradient(145deg, rgba(0, 78, 105, .94), rgba(0, 37, 64, .97) 64%, rgba(0, 101, 137, .91));
 }
 
 /* SAME SECOND SECTION BACKGROUND TEXTURE */
@@ -6710,358 +6696,744 @@ a, button { -webkit-tap-highlight-color: transparent; }
 
 
 
-/* =========================================
-   INDEX NEW SEVENTH SECTION
+/* ==========================================================
+   SERVICE NEW SECOND SECTION
    OUR ACHIEVEMENTS
-   Smooth Premium Light Theme
-========================================= */
+========================================================== */
 
 .service_new_second_section {
     position: relative;
     overflow: hidden;
-    padding: 90px 0 90px;
+    isolation: isolate;
+
+    padding: 82px 0 145px;
+
     background:
-        /* radial-gradient(circle at top left, rgba(4, 186, 240, 0.10), transparent 28%),
-        radial-gradient(circle at bottom right, rgba(0, 103, 163, 0.10), transparent 30%),
-        linear-gradient(135deg, #f3fdff 0%, #e5f8ff 40%, #edfaff 100%); */
-        linear-gradient(145deg,#00d5e2,#0363a5);
-    border-top: 1px solid rgba(0, 186, 240, 0.12);
-    border-bottom: 1px solid rgba(0, 186, 240, 0.12);
+        radial-gradient(
+            circle at 12% 18%,
+            rgba(0, 226, 255, 0.14),
+            transparent 31%
+        ),
+        radial-gradient(
+            circle at 90% 76%,
+            rgba(0, 174, 255, 0.11),
+            transparent 32%
+        ),
+        linear-gradient(
+            115deg,
+            #005c74 0%,
+            #004b65 30%,
+            #003e5b 61%,
+            #003450 100%
+        );
+
+    color: #fff;
 }
 
-.service_new_second_section .inssv-container {
-    position: relative;
-    z-index: 2;
-}
 
-.service_new_second_section .inssv-bg-glow {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(70px);
-    z-index: 1;
-    pointer-events: none;
-    animation: inssvGlowFloat 6s ease-in-out infinite;
-}
-
-.service_new_second_section .inssv-glow-one {
-    width: 240px;
-    height: 240px;
-    top: 40px;
-    left: -60px;
-    background: rgba(0, 200, 255, 0.18);
-}
-
-.service_new_second_section .inssv-glow-two {
-    width: 300px;
-    height: 300px;
-    right: -100px;
-    bottom: -40px;
-    background: rgba(0, 111, 188, 0.14);
-    animation-delay: 1.5s;
-}
-
-.service_new_second_section .inssv-heading-wrap {
-    margin-bottom: 38px;
-}
-
-.service_new_second_section .inssv-subtitle {
-    display: inline-block;
-    margin-bottom: 12px;
-    font-size: 15px;
-    font-weight: 600;
-    /* color: #00a8c8; */
-    position: relative;
-    padding-left: 44px;
-}
-
-.service_new_second_section .inssv-subtitle::before {
+/* TOP BORDER */
+.service_new_second_section::before {
     content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 32px;
-    height: 2px;
-    transform: translateY(-50%);
-    background: linear-gradient(90deg, #00c9e8, #0078b5);
-    box-shadow: 0 0 10px rgba(0, 201, 232, 0.35);
-}
 
-.service_new_second_section .inssv-title {
-    margin: 0;
-    font-size: clamp(34px, 4vw, 60px);
-    line-height: 1.1;
-    font-weight: 800;
-    color: #0a2c57;
-    letter-spacing: -0.5px;
-}
-
-.service_new_second_section .inssv-achievement-row {
-    position: relative;
-    z-index: 2;
-}
-
-.service_new_second_section .inssv-card {
-    position: relative;
-    height: 100%;
-    min-height: 190px;
-    border-radius: 22px;
-    overflow: hidden;
-    background:
-        linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(230,248,252,0.95) 100%);
-    border: 1px solid rgba(0, 173, 216, 0.20);
-    box-shadow:
-        0 12px 30px rgba(0, 99, 155, 0.08),
-        inset 0 1px 0 rgba(255,255,255,0.8);
-    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
-}
-
-.service_new_second_section .inssv-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 22px;
-    padding: 1.2px;
-    background: linear-gradient(135deg, rgba(0, 209, 255, 0.65), rgba(0, 102, 181, 0.25), rgba(255,255,255,0.7));
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-            mask-composite: exclude;
-    pointer-events: none;
-    animation: inssvBorderGlow 4s linear infinite;
-}
-
-.service_new_second_section .inssv-card:hover {
-    transform: translateY(-8px);
-    border-color: rgba(0, 195, 239, 0.35);
-    box-shadow:
-        0 18px 40px rgba(0, 99, 155, 0.14),
-        0 0 18px rgba(0, 212, 255, 0.12);
-}
-
-.service_new_second_section .inssv-card-inner {
-    position: relative;
-    z-index: 2;
-    height: 100%;
-    min-height: 190px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 28px 20px;
-}
-
-.service_new_second_section .inssv-count {
-    margin: 0 0 12px;
-    font-size: 45px;
-    font-weight: 800;
-    line-height: 1;
-    color: #0a2c57;
-    text-shadow: 0 0 18px rgba(0, 196, 235, 0.08);
-}
-
-.service_new_second_section .inssv-label {
-    margin: 0;
-    font-size: 17px;
-    line-height: 1.5;
-    font-weight: 600;
-    color: #35627a;
-}
-
-.service_new_second_section .inssv-card-shine {
     position: absolute;
     top: 0;
-    left: -70%;
-    width: 45%;
-    height: 100%;
-    background: linear-gradient(
-        120deg,
-        transparent 0%,
-        rgba(255,255,255,0.05) 25%,
-        rgba(255,255,255,0.45) 50%,
-        rgba(255,255,255,0.05) 75%,
-        transparent 100%
-    );
-    transform: skewX(-20deg);
-    animation: inssvCardShine 4.8s linear infinite;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background: rgba(52, 236, 255, .85);
+
+    box-shadow:
+        0 0 12px rgba(52, 236, 255, .35);
+
+    z-index: 6;
+}
+
+
+/* ==========================================================
+   BACKGROUND GRID
+========================================================== */
+
+.inssv-background-grid {
+    position: absolute;
+    inset: 0;
+
+    opacity: .06;
+
+    background-image:
+        linear-gradient(
+            rgba(51, 220, 243, .12) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(51, 220, 243, .12) 1px,
+            transparent 1px
+        );
+
+    background-size: 50px 50px;
+
     pointer-events: none;
 }
 
-.service_new_second_section .inssv-dot-pattern {
+
+/* ==========================================================
+   GLOW
+========================================================== */
+
+.inssv-bg-glow {
     position: absolute;
-    right: 35px;
-    bottom: 28px;
-    display: grid;
-    grid-template-columns: repeat(4, 10px);
-    gap: 12px;
-    z-index: 1;
-    /* opacity: 0.55; */
-}
 
-.service_new_second_section .inssv-dot-pattern span {
-    width: 4px;
-    height: 4px;
     border-radius: 50%;
-    background: #00bddb;
-    box-shadow: 0 0 8px rgba(0, 189, 219, 0.35);
-}
 
-/* =========================================
-   RESPONSIVE
-========================================= */
+    filter: blur(85px);
 
-@media (min-width: 1400px) {
-    .service_new_second_section .inssv-card {
-        min-height: 200px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .service_new_second_section {
-        padding: 80px 0 80px;
-    }
-
-    .service_new_second_section .inssv-card,
-    .service_new_second_section .inssv-card-inner {
-        min-height: 180px;
-    }
-
-    .service_new_second_section .inssv-title {
-        font-size: 50px;
-    }
-
-    .service_new_second_section .inssv-count {
-        font-size: 50px;
-    }
-
-    .service_new_second_section .inssv-label {
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .service_new_second_section {
-        padding: 70px 0 75px;
-    }
-
-    .service_new_second_section .inssv-heading-wrap {
-        margin-bottom: 30px;
-    }
-
-    .service_new_second_section .inssv-title {
-        font-size: 46px;
-    }
-
-    .service_new_second_section .inssv-card,
-    .service_new_second_section .inssv-card-inner {
-        min-height: 135px;
-    }
-
-    .service_new_second_section .inssv-count {
-        font-size: 46px;
-    }
-
-    .service_new_second_section .inssv-dot-pattern {
-        right: 22px;
-        bottom: 22px;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .service_new_second_section {
-        padding: 55px 0 60px;
-    }
-
-    .service_new_second_section .inssv-heading-wrap {
-        margin-bottom: 24px;
-        text-align: center;
-    }
-
-    .service_new_second_section .inssv-subtitle {
-        padding-left: 0;
-    }
-
-    .service_new_second_section .inssv-subtitle::before {
-        display: none;
-    }
-
-    .service_new_second_section .inssv-title {
-        font-size: 31px;
-    }
-
-    .service_new_second_section .inssv-card,
-    .service_new_second_section .inssv-card-inner {
-        min-height: 128px;
-    }
-
-    .service_new_second_section .inssv-count {
-        font-size: 42px;
-    }
-
-    .service_new_second_section .inssv-label {
-        font-size: 15px;
-    }
-
-    .service_new_second_section .inssv-dot-pattern {
-        display: none;
-    }
-}
-
-/* =========================================
-   ANIMATIONS
-========================================= */
-
-@keyframes inssvCardShine {
-    0% {
-        left: -70%;
-    }
-    100% {
-        left: 140%;
-    }
-}
-
-@keyframes inssvGlowFloat {
-    0%, 100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(16px);
-    }
-}
-
-@keyframes inssvBorderGlow {
-    0% {
-        filter: hue-rotate(0deg);
-        opacity: 0.85;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        filter: hue-rotate(18deg);
-        opacity: 0.85;
-    }
+    pointer-events: none;
 }
 
 
+.inssv-glow-one {
+    width: 450px;
+    height: 450px;
 
+    left: -170px;
+    top: -180px;
 
-
-/* Compact width control for outer card wrappers and inner containers */
-.inssv-achievement-row .inssv-card {
-    max-width: 260px !important;    /* Tightens overall card width */
-    width: 100% !important;
+    background:
+        rgba(0, 226, 255, .13);
 }
 
-.inssv-achievement-row .inssv-card-inner {
-    padding: 20px 16px !important;  /* Reduces internal bulkiness */
+
+.inssv-glow-two {
+    width: 420px;
+    height: 420px;
+
+    right: -160px;
+    bottom: -60px;
+
+    background:
+        rgba(0, 167, 255, .12);
+}
+
+
+/* ==========================================================
+   PLUS ICONS
+========================================================== */
+
+.inssv-cross {
+    position: absolute;
+
+    font-family: Arial, sans-serif;
+
+    color:
+        rgba(35, 211, 235, .15);
+
+    font-weight: 300;
+
+    line-height: 1;
+
+    pointer-events: none;
+}
+
+
+.inssv-cross-one {
+    top: 35px;
+    left: 6%;
+
+    font-size: 65px;
+}
+
+
+.inssv-cross-two {
+    top: 33px;
+    left: 67%;
+
+    font-size: 62px;
+}
+
+
+.inssv-cross-three {
+    right: 4%;
+    bottom: 220px;
+
+    font-size: 50px;
+}
+
+
+/* ==========================================================
+   DOT PATTERN
+========================================================== */
+
+.inssv-dots {
+    position: absolute;
+
+    width: 105px;
+    height: 85px;
+
+    background-image:
+        radial-gradient(
+            circle,
+            rgba(42, 222, 242, .65) 1.5px,
+            transparent 2px
+        );
+
+    background-size: 18px 18px;
+
+    pointer-events: none;
+}
+
+
+.inssv-dots-one {
+    top: 18px;
+    left: 18%;
+
+    opacity: .45;
+}
+
+
+.inssv-dots-two {
+    bottom: 20px;
+    left: 2%;
+
+    opacity: .30;
+}
+
+
+.inssv-dots-three {
+    right: 4%;
+    bottom: 95px;
+
+    opacity: .25;
+}
+
+
+/* ==========================================================
+   MEDICAL DECORATION
+========================================================== */
+
+.inssv-medical-decoration {
+    position: absolute;
+
+    top: 45px;
+    right: 5%;
+
+    width: 125px;
+    height: 125px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 43px;
+
+    color:
+        rgba(45, 223, 243, .32);
+
+    z-index: 1;
+
+    pointer-events: none;
+}
+
+
+.inssv-medical-decoration-left {
+    top: auto;
+
+    right: auto;
+
+    left: -30px;
+    bottom: 55px;
+
+    width: 100px;
+    height: 100px;
+
+    font-size: 34px;
+
+    opacity: .60;
+}
+
+
+.inssv-medical-orbit {
+    position: absolute;
+
+    inset: 7px;
+
+    border:
+        1px solid rgba(45, 223, 243, .28);
+
+    border-radius: 50%;
+}
+
+
+.inssv-medical-orbit-two {
+    inset: 21px;
+
+    border-color:
+        rgba(45, 223, 243, .14);
+}
+
+
+.inssv-medical-dot {
+    position: absolute;
+
+    width: 8px;
+    height: 8px;
+
+    top: 3px;
+    left: 50%;
+
+    border-radius: 50%;
+
+    background: #2be1f3;
+
+    box-shadow:
+        0 0 12px rgba(43, 225, 243, .85);
+}
+
+
+/* ==========================================================
+   CONTAINER
+========================================================== */
+
+.inssv-container {
+    position: relative;
+
+    z-index: 5;
+}
+
+
+/* ==========================================================
+   HEADING
+========================================================== */
+
+.inssv-heading-wrap {
+    position: relative;
+
+    max-width: 700px;
+
+    margin:
+        0 auto 42px;
+
     text-align: center;
 }
 
-/* Reduces spacing between columns so compact cards stay close together */
+
+.inssv-heading-top {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 11px;
+
+    margin-bottom: 10px;
+}
+
+
+.inssv-heading-line {
+    width: 31px;
+    height: 3px;
+
+    display: inline-block;
+
+    border-radius: 30px;
+
+    background: #32e0f3;
+
+    box-shadow:
+        0 0 9px rgba(50, 224, 243, .5);
+}
+
+
+.inssv-subtitle {
+    font-size: 13px;
+
+    line-height: 1.4;
+
+    font-weight: 600;
+
+    color: #fff;
+}
+
+
+.inssv-title {
+    margin: 0;
+
+    font-size: 45px;
+
+    line-height: 1.1;
+
+    font-weight: 750;
+
+    letter-spacing: -1.5px;
+
+    color: #fff;
+}
+
+
+.inssv-title span {
+    color: #30dcf0;
+}
+
+
+.inssv-title-underline {
+    width: 54px;
+    height: 4px;
+
+    display: block;
+
+    margin:
+        17px auto 0;
+
+    border-radius: 30px;
+
+    background: #31e0f2;
+
+    box-shadow:
+        0 0 11px rgba(49, 224, 242, .4);
+}
+
+
+/* ==========================================================
+   ACHIEVEMENT ROW
+========================================================== */
+
 .inssv-achievement-row {
-    gap: 15px !important;
+    position: relative;
+
+    z-index: 4;
+}
+
+
+/* ==========================================================
+   ACHIEVEMENT CARD
+========================================================== */
+
+.inssv-card {
+    position: relative;
+
+    height: 100%;
+
+    min-height: 205px;
+
+    overflow: hidden;
+
+    border:
+        1px solid rgba(41, 219, 240, .78);
+
+    border-radius: 18px;
+
+    background:
+        linear-gradient(
+            140deg,
+            rgba(0, 80, 103, .74),
+            rgba(0, 57, 80, .69)
+        );
+
+    box-shadow:
+        0 0 0 1px rgba(27, 197, 222, .04),
+        inset 0 0 30px rgba(40, 224, 245, .035),
+        0 18px 45px rgba(0, 16, 30, .25),
+        0 0 17px rgba(35, 215, 236, .09);
+
+    backdrop-filter:
+        blur(9px);
+
+    transition:
+        transform .35s ease,
+        border-color .35s ease,
+        box-shadow .35s ease;
+}
+
+
+.inssv-card:hover {
+    transform:
+        translateY(-5px);
+
+    border-color:
+        rgba(65, 237, 252, .96);
+
+    box-shadow:
+        0 22px 52px rgba(0, 16, 30, .28),
+        0 0 25px rgba(38, 220, 241, .15);
+}
+
+
+/* TOP BORDER SHINE */
+.inssv-card-shine {
+    position: absolute;
+
+    top: 0;
+    left: 14%;
+
+    width: 72%;
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #72f4ff,
+            transparent
+        );
+
+    box-shadow:
+        0 0 13px rgba(72, 236, 255, .75);
+
+    pointer-events: none;
+}
+
+
+/* ==========================================================
+   CARD INNER
+========================================================== */
+
+.inssv-card-inner {
+    min-height: 205px;
+
+    padding:
+        26px 22px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+}
+
+
+/* ==========================================================
+   CARD ICON
+========================================================== */
+
+.inssv-card-icon {
+    width: 60px;
+    height: 60px;
+
+    margin-bottom: 15px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border:
+        1px solid rgba(43, 222, 243, .78);
+
+    border-radius: 13px;
+
+    color: #31e1f3;
+
+    font-size: 26px;
+
+    background:
+        rgba(0, 70, 94, .60);
+
+    box-shadow:
+        inset 0 0 18px rgba(41, 223, 243, .05),
+        0 0 15px rgba(41, 223, 243, .08);
+}
+
+
+/* ==========================================================
+   CARD TEXT
+========================================================== */
+
+.inssv-card-content {
+    position: relative;
+}
+
+
+.inssv-count {
+    margin:
+        0 0 6px;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 750;
+
+    letter-spacing: -1px;
+
+    color: #ffffff;
+}
+
+
+.inssv-label {
+    margin: 0;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+
+    font-weight: 500;
+
+    color:
+        rgba(255,255,255,.78);
+}
+
+
+/* ==========================================================
+   BOTTOM WAVES
+========================================================== */
+
+.inssv-wave-decoration {
+    position: absolute;
+
+    width: 100%;
+
+    height: 180px;
+
+    left: 0;
+    bottom: -5px;
+
+    z-index: 2;
+
+    pointer-events: none;
+}
+
+
+/* ==========================================================
+   RESPONSIVE - 1199px
+========================================================== */
+
+@media only screen and (max-width: 1199px) {
+
+    .service_new_second_section {
+        padding:
+            75px 0 130px;
+    }
+
+    .inssv-title {
+        font-size: 40px;
+    }
+
+}
+
+
+/* ==========================================================
+   RESPONSIVE - 991px
+========================================================== */
+
+@media only screen and (max-width: 991px) {
+
+    .service_new_second_section {
+        padding:
+            65px 0 120px;
+    }
+
+    .inssv-heading-wrap {
+        margin-bottom: 35px;
+    }
+
+    .inssv-medical-decoration {
+        width: 95px;
+        height: 95px;
+
+        font-size: 32px;
+
+        right: 2%;
+    }
+
+}
+
+
+/* ==========================================================
+   RESPONSIVE - MOBILE
+========================================================== */
+
+@media only screen and (max-width: 767px) {
+
+    .service_new_second_section {
+        padding:
+            55px 12px 105px;
+    }
+
+
+    .inssv-title {
+        font-size: 32px;
+
+        letter-spacing: -1px;
+    }
+
+
+    .inssv-subtitle {
+        font-size: 12px;
+    }
+
+
+    .inssv-card {
+        min-height: 180px;
+
+        border-radius: 16px;
+    }
+
+
+    .inssv-card-inner {
+        min-height: 180px;
+
+        padding:
+            22px 18px;
+    }
+
+
+    .inssv-card-icon {
+        width: 52px;
+        height: 52px;
+
+        font-size: 22px;
+    }
+
+
+    .inssv-count {
+        font-size: 36px;
+    }
+
+
+    .inssv-label {
+        font-size: 13px;
+    }
+
+
+    .inssv-medical-decoration {
+        display: none;
+    }
+
+
+    .inssv-cross-two {
+        display: none;
+    }
+
+
+    .inssv-wave-decoration {
+        height: 130px;
+    }
+
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media only screen and (max-width: 480px) {
+
+    .service_new_second_section {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+
+    .inssv-title {
+        font-size: 29px;
+    }
+
 }
 
 
@@ -7375,8 +7747,8 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .contect_new_first_section .cnfs-tooth-right {
     width: 210px;
     height: 240px;
-    top: 7%;
-    right: -48px;
+    top: 1%;
+    right: -14px;
 }
 
 .contect_new_first_section .cnfs-tooth-left {
@@ -9467,3 +9839,1707 @@ a, button { -webkit-tap-highlight-color: transparent; }
     .service_new_common_section__badge { left: 12px; padding: 10px 14px; }
     .service_new_common_section__btn { font-size: 14px; padding-left: 16px; }
 }
+
+
+
+
+/* ==========================================================
+   SMART PHYSIOCARE
+   LOCATION PAGE PREMIUM DESIGN
+========================================================== */
+
+
+/* ==========================================================
+   1. MAIN LOCATION SECTION
+========================================================== */
+
+.location_new_section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    isolation: isolate;
+
+    padding: 88px 0 155px;
+
+    background:
+        radial-gradient(
+            circle at 16% 20%,
+            rgba(0, 230, 255, 0.12) 0%,
+            rgba(0, 230, 255, 0.035) 28%,
+            transparent 52%
+        ),
+        radial-gradient(
+            circle at 88% 77%,
+            rgba(0, 174, 255, 0.11) 0%,
+            transparent 47%
+        ),
+        linear-gradient(
+            117deg,
+            #006078 0%,
+            #004b66 28%,
+            #003e5b 58%,
+            #003451 100%
+        );
+
+    color: #ffffff;
+}
+
+
+.location_new_section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,.015),
+            transparent 30%,
+            transparent 70%,
+            rgba(255,255,255,.012)
+        );
+
+    z-index: -1;
+    pointer-events: none;
+}
+
+
+/* main top cyan edge */
+.location_new_section::after {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background: rgba(52, 236, 255, 0.78);
+
+    box-shadow:
+        0 0 12px rgba(52, 236, 255, 0.28);
+
+    z-index: 8;
+}
+
+
+.lns-container {
+    position: relative;
+    z-index: 5;
+}
+
+
+/* ==========================================================
+   2. BACKGROUND GRID
+========================================================== */
+
+.lns-background-grid {
+    position: absolute;
+
+    inset: 0;
+
+    opacity: .07;
+
+    background-image:
+        linear-gradient(
+            rgba(50, 223, 245, .12) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(50, 223, 245, .12) 1px,
+            transparent 1px
+        );
+
+    background-size: 50px 50px;
+
+    mask-image:
+        linear-gradient(
+            to bottom,
+            rgba(0,0,0,.3),
+            transparent 75%
+        );
+
+    pointer-events: none;
+}
+
+
+/* ==========================================================
+   3. BACKGROUND GLOWS
+========================================================== */
+
+.lns-glow {
+    position: absolute;
+
+    border-radius: 50%;
+
+    filter: blur(80px);
+
+    pointer-events: none;
+}
+
+
+.lns-glow-one {
+    width: 430px;
+    height: 430px;
+
+    top: -160px;
+    left: -130px;
+
+    background:
+        rgba(16, 222, 244, .12);
+}
+
+
+.lns-glow-two {
+    width: 420px;
+    height: 420px;
+
+    right: -120px;
+    bottom: 40px;
+
+    background:
+        rgba(0, 167, 255, .10);
+}
+
+
+/* ==========================================================
+   4. PLUS DECORATIONS
+========================================================== */
+
+.lns-cross {
+    position: absolute;
+
+    font-family: Arial, sans-serif;
+
+    font-weight: 300;
+
+    color: rgba(28, 207, 231, .15);
+
+    line-height: 1;
+
+    pointer-events: none;
+}
+
+
+.lns-cross-one {
+    top: 45px;
+    left: 6%;
+
+    font-size: 65px;
+}
+
+
+.lns-cross-two {
+    top: 38px;
+    left: 67%;
+
+    font-size: 62px;
+}
+
+
+.lns-cross-three {
+    right: 5%;
+    bottom: 230px;
+
+    font-size: 50px;
+}
+
+
+/* ==========================================================
+   5. DOT MATRIX
+========================================================== */
+
+.lns-dots {
+    position: absolute;
+
+    width: 100px;
+    height: 85px;
+
+    background-image:
+        radial-gradient(
+            circle,
+            rgba(29, 222, 241, .65) 1.5px,
+            transparent 2px
+        );
+
+    background-size: 18px 18px;
+
+    pointer-events: none;
+}
+
+
+.lns-dots-one {
+    left: 18%;
+    top: 20px;
+
+    opacity: .48;
+}
+
+
+.lns-dots-two {
+    left: 2%;
+    bottom: 25px;
+
+    opacity: .30;
+}
+
+
+.lns-dots-three {
+    right: 5%;
+    bottom: 95px;
+
+    opacity: .22;
+}
+
+
+/* ==========================================================
+   6. BACKGROUND TOOTH ICONS
+========================================================== */
+
+.lns-tooth {
+    position: absolute;
+
+    color: rgba(36, 222, 241, .38);
+
+    pointer-events: none;
+
+    z-index: 1;
+}
+
+
+.lns-tooth svg {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.lns-tooth-right {
+    width: 170px;
+    height: 200px;
+
+    right: -20px;
+    top: 60px;
+
+    transform: rotate(5deg);
+}
+
+
+.lns-tooth-left {
+    width: 105px;
+    height: 125px;
+
+    left: -39px;
+    bottom: 35px;
+
+    opacity: .55;
+
+    transform: rotate(-17deg);
+}
+
+
+/* ==========================================================
+   7. BOTTOM WAVE DECORATION
+========================================================== */
+
+.lns-wave-decoration {
+    position: absolute;
+
+    width: 100%;
+    height: 180px;
+
+    left: 0;
+    bottom: -5px;
+
+    z-index: 2;
+
+    pointer-events: none;
+}
+
+
+/* ==========================================================
+   8. MAIN HEADING
+========================================================== */
+
+.lns-main-heading {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 760px;
+
+    margin: 0 auto 46px;
+
+    text-align: center;
+}
+
+
+.lns-eyebrow {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 12px;
+
+    color: #ffffff;
+
+    font-size: 13px;
+
+    line-height: 1.4;
+
+    font-weight: 600;
+}
+
+
+.lns-main-heading .lns-eyebrow {
+    justify-content: center;
+}
+
+
+.lns-small-line {
+    width: 31px;
+    height: 3px;
+
+    display: inline-block;
+
+    flex: 0 0 31px;
+
+    border-radius: 30px;
+
+    background: #35e4f7;
+
+    box-shadow:
+        0 0 9px rgba(53, 228, 247, .45);
+}
+
+
+.lns-title {
+    position: relative;
+
+    margin: 0;
+
+    font-size: 45px;
+
+    line-height: 1.1;
+
+    font-weight: 750;
+
+    letter-spacing: -1.7px;
+
+    color: #ffffff;
+}
+
+
+.lns-title span {
+    color: #30d9f0;
+}
+
+
+.lns-title-underline {
+    width: 52px;
+    height: 4px;
+
+    display: block;
+
+    margin-top: 18px;
+
+    border-radius: 20px;
+
+    background: #31dff2;
+
+    box-shadow:
+        0 0 10px rgba(49, 223, 242, .38);
+}
+
+
+.lns-main-heading .lns-title-underline {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.lns-heading-text {
+    max-width: 610px;
+
+    margin: 18px auto 0;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    color: rgba(255,255,255,.73);
+}
+
+
+/* ==========================================================
+   9. KAKINADA MAIN CARD
+========================================================== */
+
+.location1_new_section {
+    position: relative;
+
+    overflow: hidden;
+
+    margin-bottom: 35px;
+
+    border: 1px solid rgba(42, 222, 242, .80);
+
+    border-radius: 23px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(0, 82, 105, .64),
+            rgba(0, 55, 78, .66)
+        );
+
+    box-shadow:
+        0 0 0 1px rgba(19, 185, 215, .05),
+        inset 0 0 35px rgba(22, 222, 247, .035),
+        0 18px 55px rgba(0, 16, 30, .23),
+        0 0 18px rgba(23, 214, 237, .11);
+
+    backdrop-filter: blur(10px);
+
+    z-index: 5;
+}
+
+
+.location1_new_section__border_shine {
+    position: absolute;
+
+    top: 0;
+    left: 8%;
+
+    width: 45%;
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #72f4ff,
+            transparent
+        );
+
+    box-shadow:
+        0 0 14px rgba(78, 237, 255, .7);
+
+    z-index: 3;
+}
+
+
+/* ==========================================================
+   10. KAKINADA CONTENT
+========================================================== */
+
+.location1_new_section__content {
+    position: relative;
+
+    min-height: 500px;
+
+    height: 100%;
+
+    padding: 52px 42px;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+
+.location1_new_section__heading {
+    position: relative;
+
+    z-index: 3;
+
+    margin-bottom: 30px;
+}
+
+
+.location1_new_section__heading .lns-title {
+    font-size: 39px;
+
+    letter-spacing: -1px;
+}
+
+
+/* ==========================================================
+   FLOATING ICON
+========================================================== */
+
+.location1_new_section__floating_icon,
+.location2_new_section__floating_icon {
+    position: absolute;
+
+    top: 32px;
+    right: 30px;
+
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #29dff2;
+
+    font-size: 37px;
+}
+
+
+.location1_new_section__icon_orbit,
+.location2_new_section__icon_orbit {
+    position: absolute;
+
+    inset: 10px;
+
+    border: 1px solid rgba(43, 221, 241, .32);
+
+    border-radius: 50%;
+}
+
+
+.location1_new_section__icon_orbit_two,
+.location2_new_section__icon_orbit_two {
+    inset: 20px;
+
+    border-color: rgba(43, 221, 241, .16);
+}
+
+
+.location1_new_section__orbit_dot,
+.location2_new_section__orbit_dot {
+    position: absolute;
+
+    top: 4px;
+    left: 48%;
+
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #27e2f4;
+
+    box-shadow:
+        0 0 12px rgba(39, 226, 244, .9);
+}
+
+
+/* ==========================================================
+   11. ADDRESS INFORMATION CARD
+========================================================== */
+
+.location1_new_section__info_card,
+.location2_new_section__info_card {
+    position: relative;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 16px;
+
+    overflow: hidden;
+
+    padding: 18px;
+
+    border: 1px solid rgba(37, 216, 238, .72);
+
+    border-radius: 14px;
+
+    background:
+        linear-gradient(
+            120deg,
+            rgba(0, 75, 98, .75),
+            rgba(0, 60, 83, .5)
+        );
+
+    box-shadow:
+        inset 0 0 17px rgba(40, 229, 247, .025);
+
+    z-index: 2;
+}
+
+
+.location1_new_section__info_shine,
+.location2_new_section__info_shine {
+    position: absolute;
+
+    top: 0;
+    left: 15px;
+
+    width: 120px;
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(109, 244, 255, .9),
+            transparent
+        );
+
+    box-shadow:
+        0 0 9px rgba(65, 234, 250, .55);
+}
+
+
+.location1_new_section__info_icon,
+.location2_new_section__info_icon {
+    width: 58px;
+    height: 58px;
+
+    flex: 0 0 58px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgba(38, 221, 242, .78);
+
+    border-radius: 12px;
+
+    color: #31e1f3;
+
+    font-size: 27px;
+
+    background:
+        rgba(0, 71, 94, .62);
+
+    box-shadow:
+        inset 0 0 17px rgba(37, 225, 244, .05);
+}
+
+
+.location1_new_section__info_content h3,
+.location2_new_section__info_content h3 {
+    margin: 1px 0 7px;
+
+    font-size: 17px;
+
+    line-height: 1.3;
+
+    font-weight: 700;
+
+    color: #ffffff;
+}
+
+
+.location1_new_section__info_content p,
+.location2_new_section__info_content p {
+    margin: 0;
+
+    color: rgba(255,255,255,.78);
+
+    font-size: 12.8px;
+
+    line-height: 1.65;
+}
+
+
+/* ==========================================================
+   12. SMALL INFO CARDS
+========================================================== */
+
+.location1_new_section__mini_cards,
+.location2_new_section__mini_cards {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 13px;
+
+    margin-top: 16px;
+}
+
+
+.location1_new_section__mini_card,
+.location2_new_section__mini_card {
+    min-width: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+
+    min-height: 68px;
+
+    padding: 10px 13px;
+
+    border: 1px solid rgba(36, 215, 237, .30);
+
+    border-radius: 11px;
+
+    background:
+        rgba(0, 65, 87, .47);
+
+    color: #ffffff;
+
+    transition:
+        border-color .3s ease,
+        transform .3s ease,
+        background .3s ease;
+}
+
+
+a.location1_new_section__mini_card:hover,
+a.location2_new_section__mini_card:hover {
+    transform: translateY(-2px);
+
+    border-color: rgba(45, 227, 247, .7);
+
+    background:
+        rgba(0, 79, 103, .66);
+
+    color: #ffffff;
+}
+
+
+.location1_new_section__mini_icon,
+.location2_new_section__mini_icon {
+    width: 39px;
+    height: 39px;
+
+    flex: 0 0 39px;
+
+    border: 1px solid rgba(43, 223, 243, .6);
+
+    border-radius: 9px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #34e1f3;
+
+    font-size: 17px;
+}
+
+
+.location1_new_section__mini_card small,
+.location2_new_section__mini_card small {
+    display: block;
+
+    margin-bottom: 2px;
+
+    font-size: 10px;
+
+    color: rgba(255,255,255,.55);
+}
+
+
+.location1_new_section__mini_card strong,
+.location2_new_section__mini_card strong {
+    display: block;
+
+    min-width: 0;
+
+    font-size: 11.5px;
+
+    line-height: 1.35;
+
+    font-weight: 600;
+
+    color: #ffffff;
+}
+
+
+/* ==========================================================
+   13. MAP AREA
+========================================================== */
+
+.location1_new_section__map_wrapper,
+.location2_new_section__map_wrapper {
+    position: relative;
+
+    overflow: hidden;
+
+    height: 100%;
+
+    min-height: 500px;
+
+    padding: 20px;
+
+    background:
+        rgba(0, 55, 76, .22);
+}
+
+
+.location1_new_section__map_wrapper iframe,
+.location2_new_section__map_wrapper iframe {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    min-height: 460px;
+
+    border: 1px solid rgba(37, 220, 240, .47);
+
+    border-radius: 14px;
+
+    background: #ffffff;
+}
+
+
+.location1_new_section__map_shine,
+.location2_new_section__map_shine {
+    position: absolute;
+
+    z-index: 4;
+
+    width: 40%;
+    height: 1px;
+
+    top: 20px;
+    left: 30%;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #58efff,
+            transparent
+        );
+
+    box-shadow:
+        0 0 13px rgba(62, 235, 255, .7);
+
+    pointer-events: none;
+}
+
+
+/* map floating label */
+.location1_new_section__map_label,
+.location2_new_section__map_label {
+    position: absolute;
+
+    z-index: 5;
+
+    left: 38px;
+    bottom: 38px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+
+    padding: 10px 15px;
+
+    border: 1px solid rgba(44, 222, 241, .75);
+
+    border-radius: 11px;
+
+    background:
+        rgba(0, 54, 75, .92);
+
+    backdrop-filter: blur(8px);
+
+    box-shadow:
+        0 8px 28px rgba(0,0,0,.26),
+        0 0 12px rgba(40, 220, 239, .12);
+}
+
+
+.location1_new_section__map_label_icon,
+.location2_new_section__map_label_icon {
+    width: 36px;
+    height: 36px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgba(45, 226, 247, .72);
+
+    border-radius: 8px;
+
+    color: #36e1f2;
+
+    font-size: 17px;
+}
+
+
+.location1_new_section__map_label strong,
+.location2_new_section__map_label strong {
+    display: block;
+
+    font-size: 10.5px;
+
+    line-height: 1.3;
+
+    color: #ffffff;
+}
+
+
+.location1_new_section__map_label span,
+.location2_new_section__map_label span {
+    display: block;
+
+    margin-top: 2px;
+
+    font-size: 9.5px;
+
+    color: rgba(255,255,255,.62);
+}
+
+
+/* ==========================================================
+   14. INNER CARD BOTTOM CURVE
+========================================================== */
+
+.location1_new_section__bottom_curve,
+.location2_new_section__bottom_curve {
+    position: absolute;
+
+    width: 450px;
+    height: 100px;
+
+    bottom: -67px;
+    left: 13%;
+
+    border-top:
+        1px solid rgba(44, 223, 243, .43);
+
+    border-radius: 50%;
+
+    transform: rotate(-3deg);
+
+    pointer-events: none;
+}
+
+
+/* ==========================================================
+   15. RAJAHMUNDRY MAIN CARD
+========================================================== */
+
+.location2_new_section {
+    position: relative;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(42, 222, 242, .80);
+
+    border-radius: 23px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(0, 82, 105, .64),
+            rgba(0, 55, 78, .66)
+        );
+
+    box-shadow:
+        0 0 0 1px rgba(19, 185, 215, .05),
+        inset 0 0 35px rgba(22, 222, 247, .035),
+        0 18px 55px rgba(0, 16, 30, .23),
+        0 0 18px rgba(23, 214, 237, .11);
+
+    backdrop-filter: blur(10px);
+
+    z-index: 5;
+}
+
+
+.location2_new_section__border_shine {
+    position: absolute;
+
+    top: 0;
+    right: 8%;
+
+    width: 45%;
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #72f4ff,
+            transparent
+        );
+
+    box-shadow:
+        0 0 14px rgba(78, 237, 255, .7);
+
+    z-index: 3;
+}
+
+
+.location2_new_section__content {
+    position: relative;
+
+    min-height: 500px;
+
+    height: 100%;
+
+    padding: 52px 42px;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+
+.location2_new_section__heading {
+    position: relative;
+
+    z-index: 3;
+
+    margin-bottom: 30px;
+}
+
+
+.location2_new_section__heading .lns-title {
+    font-size: 39px;
+
+    letter-spacing: -1px;
+}
+
+
+/* ==========================================================
+   16. HOVER - VERY SUBTLE
+========================================================== */
+
+.location1_new_section,
+.location2_new_section {
+    transition:
+        border-color .35s ease,
+        box-shadow .35s ease;
+}
+
+
+.location1_new_section:hover,
+.location2_new_section:hover {
+    border-color:
+        rgba(62, 235, 250, .95);
+
+    box-shadow:
+        0 0 0 1px rgba(32, 213, 238, .06),
+        inset 0 0 35px rgba(22, 222, 247, .04),
+        0 21px 58px rgba(0, 16, 30, .26),
+        0 0 24px rgba(23, 214, 237, .15);
+}
+
+
+/* ==========================================================
+   17. 1200 - 1399
+========================================================== */
+
+@media only screen and (max-width: 1399px) {
+
+    .location1_new_section__content,
+    .location2_new_section__content {
+        padding:
+            45px 34px;
+    }
+
+
+    .location1_new_section__heading .lns-title,
+    .location2_new_section__heading .lns-title {
+        font-size: 36px;
+    }
+
+
+    .location1_new_section__floating_icon,
+    .location2_new_section__floating_icon {
+        width: 82px;
+        height: 82px;
+
+        right: 20px;
+    }
+
+}
+
+
+/* ==========================================================
+   18. TABLET / SMALL DESKTOP
+========================================================== */
+
+@media only screen and (max-width: 1199px) {
+
+    .location_new_section {
+        padding:
+            75px 0 140px;
+    }
+
+
+    .lns-title {
+        font-size: 40px;
+    }
+
+
+    .location1_new_section__content,
+    .location2_new_section__content {
+        padding:
+            40px 28px;
+    }
+
+
+    .location1_new_section__mini_cards,
+    .location2_new_section__mini_cards {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* ==========================================================
+   19. <= 991px
+========================================================== */
+
+@media only screen and (max-width: 991px) {
+
+    .location_new_section {
+        padding:
+            68px 0 130px;
+    }
+
+
+    .lns-main-heading {
+        margin-bottom: 35px;
+    }
+
+
+    .location1_new_section,
+    .location2_new_section {
+        border-radius: 19px;
+    }
+
+
+    .location1_new_section__content,
+    .location2_new_section__content {
+        min-height: auto;
+
+        padding:
+            42px 36px;
+    }
+
+
+    .location1_new_section__map_wrapper,
+    .location2_new_section__map_wrapper {
+        min-height: auto;
+
+        padding: 16px;
+    }
+
+
+    .location1_new_section__map_wrapper iframe,
+    .location2_new_section__map_wrapper iframe {
+        min-height: 400px;
+    }
+
+
+    .location1_new_section__map_label,
+    .location2_new_section__map_label {
+        left: 30px;
+        bottom: 30px;
+    }
+
+
+    .lns-tooth-right {
+        width: 125px;
+        height: 150px;
+
+        right: -35px;
+    }
+
+}
+
+
+/* ==========================================================
+   20. MOBILE
+========================================================== */
+
+@media only screen and (max-width: 767px) {
+
+    .location_new_section {
+        padding:
+            55px 12px 115px;
+    }
+
+
+    .lns-main-heading {
+        margin-bottom: 30px;
+    }
+
+
+    .lns-main-heading .lns-eyebrow {
+        justify-content: center;
+    }
+
+
+    .lns-title {
+        font-size: 32px;
+
+        letter-spacing: -1px;
+    }
+
+
+    .lns-heading-text {
+        font-size: 13px;
+
+        line-height: 1.7;
+    }
+
+
+    .location1_new_section,
+    .location2_new_section {
+        border-radius: 17px;
+    }
+
+
+    .location1_new_section__content,
+    .location2_new_section__content {
+        padding:
+            32px 21px;
+    }
+
+
+    .location1_new_section__heading,
+    .location2_new_section__heading {
+        padding-right: 65px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .location1_new_section__heading .lns-title,
+    .location2_new_section__heading .lns-title {
+        font-size: 31px;
+    }
+
+
+    .location1_new_section__floating_icon,
+    .location2_new_section__floating_icon {
+        width: 67px;
+        height: 67px;
+
+        top: 25px;
+        right: 17px;
+
+        font-size: 28px;
+    }
+
+
+    .location1_new_section__info_card,
+    .location2_new_section__info_card {
+        padding: 15px;
+
+        gap: 13px;
+    }
+
+
+    .location1_new_section__info_icon,
+    .location2_new_section__info_icon {
+        width: 47px;
+        height: 47px;
+
+        flex: 0 0 47px;
+
+        font-size: 21px;
+    }
+
+
+    .location1_new_section__info_content h3,
+    .location2_new_section__info_content h3 {
+        font-size: 15px;
+    }
+
+
+    .location1_new_section__info_content p,
+    .location2_new_section__info_content p {
+        font-size: 12px;
+
+        line-height: 1.6;
+    }
+
+
+    .location1_new_section__mini_cards,
+    .location2_new_section__mini_cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    .location1_new_section__map_wrapper,
+    .location2_new_section__map_wrapper {
+        padding: 13px;
+    }
+
+
+    .location1_new_section__map_wrapper iframe,
+    .location2_new_section__map_wrapper iframe {
+        min-height: 335px;
+
+        border-radius: 11px;
+    }
+
+
+    .location1_new_section__map_label,
+    .location2_new_section__map_label {
+        left: 24px;
+        right: 24px;
+        bottom: 24px;
+
+        width: max-content;
+
+        max-width:
+            calc(100% - 48px);
+    }
+
+
+    .lns-cross-two {
+        display: none;
+    }
+
+
+    .lns-tooth-right {
+        opacity: .45;
+    }
+
+
+    .lns-tooth-left {
+        opacity: .32;
+    }
+
+
+    .lns-wave-decoration {
+        height: 135px;
+    }
+
+}
+
+
+/* ==========================================================
+   21. SMALL MOBILE
+========================================================== */
+
+@media only screen and (max-width: 480px) {
+
+    .location_new_section {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+
+    .lns-title {
+        font-size: 29px;
+    }
+
+
+    .location1_new_section__content,
+    .location2_new_section__content {
+        padding:
+            29px 17px;
+    }
+
+
+    .location1_new_section__heading .lns-title,
+    .location2_new_section__heading .lns-title {
+        font-size: 28px;
+    }
+
+
+    .location1_new_section__info_card,
+    .location2_new_section__info_card {
+        align-items: flex-start;
+    }
+
+
+    .location1_new_section__map_wrapper iframe,
+    .location2_new_section__map_wrapper iframe {
+        min-height: 305px;
+    }
+
+
+    .location1_new_section__floating_icon,
+    .location2_new_section__floating_icon {
+        opacity: .75;
+    }
+
+}
+
+
+
+/* =========================================
+   LOCATION PAGE HEADING + BREADCRUMB
+========================================= */
+
+.lns-main-heading {
+    position: relative;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto 46px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.lns-main-heading .lns-title {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 46px;
+    line-height: 1.1;
+    font-weight: 700;
+
+    letter-spacing: -1px;
+}
+
+
+/* Breadcrumb */
+.lns-breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 16px;
+
+    margin: 12px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+
+.lns-breadcrumb li {
+    margin: 0;
+    padding: 0;
+
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 500;
+
+    color: #32dff2;
+}
+
+
+.lns-breadcrumb li a {
+    color: #32dff2;
+    text-decoration: none;
+
+    transition: color .3s ease;
+}
+
+
+.lns-breadcrumb li a:hover {
+    color: #ffffff;
+}
+
+
+.lns-breadcrumb-separator {
+    color: rgba(255, 255, 255, 0.55) !important;
+    font-weight: 400 !important;
+}
+
+
+/* Description */
+.lns-heading-text {
+    max-width: 610px;
+
+    margin: 18px auto 0;
+
+    color: rgba(255, 255, 255, 0.75);
+
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 991px) {
+
+    .lns-main-heading .lns-title {
+        font-size: 40px;
+    }
+
+    .lns-breadcrumb li {
+        font-size: 17px;
+    }
+
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+
+    .lns-main-heading .lns-title {
+        font-size: 34px;
+    }
+
+    .lns-breadcrumb {
+        gap: 12px;
+        margin-top: 9px;
+    }
+
+    .lns-breadcrumb li {
+        font-size: 16px;
+    }
+
+    .lns-heading-text {
+        margin-top: 15px;
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+}
+
+
+
+
+/* =========================================
+   ACHIEVEMENTS - DECORATIVE TOOTH ICONS
+========================================= */
+
+.inssv-tooth {
+    position: absolute;
+    z-index: 1;
+
+    color: rgba(52, 236, 255, 0.34);
+
+    pointer-events: none;
+}
+
+
+.inssv-tooth svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* TOP RIGHT */
+.inssv-tooth-right {
+    width: 175px;
+    height: 205px;
+
+    top: 48px;
+    right: 35px;
+
+    transform: rotate(5deg);
+
+    opacity: .9;
+}
+
+
+/* BOTTOM LEFT */
+.inssv-tooth-left {
+    width: 110px;
+    height: 130px;
+    left: -5px;
+    bottom: 25px;
+
+    transform: rotate(-17deg);
+
+    opacity: .48;
+}
+
+
+/* =========================================
+   ACHIEVEMENTS - BOTTOM WAVE LINES
+========================================= */
+
+.inssv-wave-decoration {
+    position: absolute;
+
+    left: 0;
+    bottom: -5px;
+
+    width: 100%;
+    height: 180px;
+
+    z-index: 2;
+
+    pointer-events: none;
+}
+
+
+/* Keep section content above decorations */
+.inssv-container {
+    position: relative;
+    z-index: 5;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media only screen and (max-width: 991px) {
+
+    .inssv-tooth-right {
+        width: 135px;
+        height: 160px;
+
+        right: -35px;
+
+        opacity: .65;
+    }
+
+    .inssv-tooth-left {
+        width: 90px;
+        height: 105px;
+
+        opacity: .4;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media only screen and (max-width: 767px) {
+
+    .inssv-tooth-right {
+        width: 105px;
+        height: 125px;
+
+        right: -35px;
+        top: 35px;
+
+        opacity: .38;
+    }
+
+
+    .inssv-tooth-left {
+        width: 75px;
+        height: 90px;
+
+        left: -30px;
+        bottom: 18px;
+
+        opacity: .28;
+    }
+
+
+    .inssv-wave-decoration {
+        height: 130px;
+    }
+
+}
+
+
+
+
