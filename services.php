@@ -22,7 +22,7 @@ $snfServices = [
         'description' => 'Our specialized neurological physiotherapy team provides rehabilitation care for patients with spinal cord injuries.',
         'image' => 'assets/images/Spinal Cord Injury Rehabilitation-1.webp',
         'icon' => 'bi-activity',
-        'link' => 'spinal-cord-rehabilitation.php'
+        'link' => 'spinal-cord-injury-rehabilitation-center.php'
     ],
     [
         'title' => 'Cancer Rehabilitation',
