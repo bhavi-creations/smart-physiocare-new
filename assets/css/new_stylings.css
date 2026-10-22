@@ -3117,7 +3117,7 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .footer_new_section .fn-brand-accent{display:block;width:90px;height:2px;margin-top:18px;background:linear-gradient(90deg,var(--fn-cyan),transparent);box-shadow:0 0 12px var(--fn-cyan);}
 .footer_new_section .fn-heading{color:#fff;font-size:17px;font-weight:700;line-height:1.35;margin:0 0 17px;position:relative;padding-bottom:12px; text-align: center;}
 .footer_new_section .fn-heading::after{content:"";position:absolute;left:73px;bottom:0;width:38px;height:2px;background:linear-gradient(90deg,#25e8fa,transparent);box-shadow:0 0 9px #00def8;}
-.footer_new_section .fn-links{margin:0;padding:0;list-style:none;display:grid;gap:12px;}
+.footer_new_section .fn-links{margin:0;padding:0;list-style:none;display:grid;gap:12px; margin-left: 50px;}
 .footer_new_section .fn-links a{color:#c6edf7;font-size:18px;font-weight:500;display:inline-flex;align-items:center;gap:8px;text-decoration:none;transition:color .25s,transform .25s;}
 .footer_new_section .fn-links a i{color:#33e9fa;font-size:11px;}
 .footer_new_section .fn-links a:hover{color:#fff;transform:translateX(4px);}
