@@ -2678,6 +2678,7 @@ a, button { -webkit-tap-highlight-color: transparent; }
     right: -18px;
     top: 42px;
     animation: intsBadgeFloat 6.5s ease-in-out infinite reverse;
+    display: none;
 }
 
 /* animations */
@@ -2767,7 +2768,7 @@ a, button { -webkit-tap-highlight-color: transparent; }
 
     .index_new_third_section .ints-badge-two {
         right: 12px;
-        top: 12px;
+        top: -16px;
     }
 }
 
