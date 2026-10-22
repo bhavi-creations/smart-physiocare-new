@@ -718,6 +718,7 @@ a, button { -webkit-tap-highlight-color: transparent; }
         grid-template-columns: minmax(0, 27%) minmax(0, 73%);
         padding: 8px 12px !important;
         min-height: 82px !important;
+        background: radial-gradient(at 15% 18%, rgba(0, 194, 217, 0.23), transparent 43%), radial-gradient(at 92% 83%, rgba(0, 143, 204, 0.28), transparent 45%), linear-gradient(125deg, rgb(0, 41, 64) 0%, rgb(4, 62, 85) 43%, rgb(0, 46, 83) 100%);
     }
 
     .header_new_section .hnx-main {
