@@ -3121,7 +3121,7 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .footer_new_section .fn-links a{color:#c6edf7;font-size:18px;font-weight:500;display:inline-flex;align-items:center;gap:8px;text-decoration:none;transition:color .25s,transform .25s;}
 .footer_new_section .fn-links a i{color:#33e9fa;font-size:11px;}
 .footer_new_section .fn-links a:hover{color:#fff;transform:translateX(4px);}
-.footer_new_section .fn-address-link{color:#c6edf7;font-size:15px;line-height:1.85;display:flex;align-items:flex-start;gap:9px;text-decoration:none;overflow-wrap:anywhere;transition:color .25s;}
+.footer_new_section .fn-address-link{color:#c6edf7;font-size:15px;line-height:1.85;display:flex;align-items:flex-start;gap:9px;text-decoration:none;overflow-wrap:anywhere;transition:color .25s; margin-left: 21px;}
 .footer_new_section .fn-address-link:hover{color:#fff;}
 .footer_new_section .fn-address-icon{flex:0 0 auto;color:#32e5f5;font-size:16px;margin-top:3px;}
 .footer_new_section .fn-bottom{border-top:1px solid rgba(78,239,255,.22);padding:20px 0;display:flex;align-items:center;justify-content:space-between;gap:20px;min-width:0;}
