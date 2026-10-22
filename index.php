@@ -520,9 +520,9 @@ $infourEquipments = [
 
                         <div class="infour-image-overlay" aria-hidden="true"></div>
 
-                        <span class="infour-image-icon" aria-hidden="true">
+                        <!-- <span class="infour-image-icon" aria-hidden="true">
                             <i class="bi bi-activity"></i>
-                        </span>
+                        </span> -->
 
                     </div>
 
@@ -942,9 +942,9 @@ $insixDoctors = [
 
                         <div class="insix-image-light" aria-hidden="true"></div>
 
-                        <span class="insix-image-accent" aria-hidden="true">
+                        <!-- <span class="insix-image-accent" aria-hidden="true">
                             <i class="bi bi-heart-pulse"></i>
-                        </span>
+                        </span> -->
 
                     </div>
 
@@ -999,9 +999,9 @@ $insixDoctors = [
 
                                     <div class="insix-image-light" aria-hidden="true"></div>
 
-                                    <span class="insix-image-accent" aria-hidden="true">
+                                    <!-- <span class="insix-image-accent" aria-hidden="true">
                                         <i class="bi bi-heart-pulse"></i>
-                                    </span>
+                                    </span> -->
 
                                 </div>
 
