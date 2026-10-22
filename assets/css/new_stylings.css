@@ -11597,6 +11597,11 @@ a.location2_new_section__mini_card:hover {
         overflow-wrap: anywhere;
         word-break: normal;
     }
+
+    .footer_new_section .fn-links a {
+        font-size: 15px;
+        margin-left: -25px;
+    }
 }
 
 
