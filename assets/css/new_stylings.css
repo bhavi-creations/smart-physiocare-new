@@ -3115,8 +3115,8 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .footer_new_section .fn-brand img{display:block;width:min(100%,310px);height:auto;object-fit:contain;filter:drop-shadow(0 0 9px rgba(51,225,255,.2));transition:filter .35s,transform .35s;}
 .footer_new_section .fn-brand:hover img{filter:drop-shadow(0 0 18px rgba(51,225,255,.65));transform:translateY(-2px);}
 .footer_new_section .fn-brand-accent{display:block;width:90px;height:2px;margin-top:18px;background:linear-gradient(90deg,var(--fn-cyan),transparent);box-shadow:0 0 12px var(--fn-cyan);}
-.footer_new_section .fn-heading{color:#fff;font-size:17px;font-weight:700;line-height:1.35;margin:0 0 17px;position:relative;padding-bottom:12px;}
-.footer_new_section .fn-heading::after{content:"";position:absolute;left:0;bottom:0;width:38px;height:2px;background:linear-gradient(90deg,#25e8fa,transparent);box-shadow:0 0 9px #00def8;}
+.footer_new_section .fn-heading{color:#fff;font-size:17px;font-weight:700;line-height:1.35;margin:0 0 17px;position:relative;padding-bottom:12px; text-align: center;}
+.footer_new_section .fn-heading::after{content:"";position:absolute;left:73px;bottom:0;width:38px;height:2px;background:linear-gradient(90deg,#25e8fa,transparent);box-shadow:0 0 9px #00def8;}
 .footer_new_section .fn-links{margin:0;padding:0;list-style:none;display:grid;gap:12px;}
 .footer_new_section .fn-links a{color:#c6edf7;font-size:18px;font-weight:500;display:inline-flex;align-items:center;gap:8px;text-decoration:none;transition:color .25s,transform .25s;}
 .footer_new_section .fn-links a i{color:#33e9fa;font-size:11px;}
@@ -11564,3 +11564,39 @@ a.location2_new_section__mini_card:hover {
     }
 
 }
+
+
+
+
+/* Footer responsive: 992px to 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .footer_new_section .fn-top-grid {
+        grid-template-columns: 1.2fr 0.8fr 1fr 1fr;
+        gap: 18px;
+        padding: 40px 24px;
+        align-items: start;
+    }
+
+    .footer_new_section .fn-top-grid > .fn-column {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .footer_new_section .fn-address-one,
+    .footer_new_section .fn-address-two {
+        display: block;
+    }
+
+    .footer_new_section .fn-column img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer_new_section .fn-column p,
+    .footer_new_section .fn-column a {
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }
+}
+
+
